@@ -4,6 +4,7 @@ import Companies from "./components/companies";
 import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Logos from "./components/logos";
+import MobileIcon from "./components/mobile-icon";
 import Navbar from "./components/navbar";
 import Story from "./components/story";
 import HeroBg from "./components/svgs/hero-bg";
@@ -18,6 +19,10 @@ const App = () => {
                 <HeroBg className="absolute" />
                 <Navbar />
                 <Hero />
+            </div>
+            <div className="relative overflow-hidden">
+            <HeroBg className="absolute" />
+            <MobileIcon />
             </div>
             <Logos />
             <Story />

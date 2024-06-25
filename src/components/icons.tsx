@@ -33,4 +33,10 @@ export const Icons = {
             </defs>
         </svg>
     ),
+    menu: (props: LucideProps) => (
+        <svg {...props} viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.25 15.4938H26.75M1.25 8.41048H26.75M1.25 1.32715H26.75" stroke="#EAE8EA" stroke-width="2.51048" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+    )
 };

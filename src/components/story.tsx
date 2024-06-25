@@ -1,16 +1,18 @@
+import MobileStory from "./mobile-story";
 import StoryCard from "./story-card";
 import { StorySvgs } from "./svgs/story-svgs";
 
 const Story = () => {
     return (
-        <div className="container p-24">
-            <div className="flex flex-col gap-24">
+        <div className="container p-8 md:p-24 text-center md:text-left">
+            <div className="flex flex-col gap-16 md:gap-24">
                 <h1 className="font-semibold text-6xl">Our Story</h1>
-                <div className="flex gap-48">
-                    <div className="w-5/12">
+                <div className="md:flex md:gap-48">
+                    <div className="md:w-5/12">
                         <div className="relative">
-                            <img src="/story.png" className="relative"></img>
-                            <div className="absolute max-w-2xl inset-y-[70%] inset-x-[70%]">
+                            <img src="/story.png" className="relative" />
+                            <div className="hidden md:block">
+                            <div className="absolute max-w-2xl md:inset-y-[70%] md:inset-x-[70%]">
                                 <StoryCard
                                     cardSvg={<StorySvgs.svg1 />}
                                     background="blue"
@@ -19,7 +21,7 @@ const Story = () => {
                                     width={48}
                                 />
                             </div>
-                            <div className="absolute max-w-2xl inset-y-[90%] inset-x-[15%]">
+                            <div className="absolute max-w-2xl md:inset-y-[90%] md:inset-x-[15%]">
                                 <StoryCard
                                     cardSvg={<StorySvgs.svg3 />}
                                     background="green"
@@ -29,7 +31,7 @@ const Story = () => {
                                     width={36}
                                 />
                             </div>
-                            <div className="absolute max-w-2xl -inset-y-[10%] inset-x-[95%]">
+                            <div className="absolute max-w-2xl md:-inset-y-[10%] md:inset-x-[95%]">
                                 <StoryCard
                                     cardSvg={<StorySvgs.svg2 />}
                                     background="yellow"
@@ -39,9 +41,11 @@ const Story = () => {
                                     width={36}
                                 />
                             </div>
+                            </div>
+                            <MobileStory />
                         </div>
                     </div>
-                    <div className="w-6/12 flex flex-col gap-24">
+                    <div className="md:w-6/12 flex flex-col gap-8 md:gap-24">
                         <p className="text-4xl leading-[1.5] font-normal">
                             We're more than just a hackathon company— we're a
                             catalyst for innovation.
