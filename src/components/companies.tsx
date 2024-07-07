@@ -20,15 +20,15 @@ const Companies = () => {
                             </h1>
                         </div>
                         <h1 className="font-semibold text-4xl md:text-5xl tracking-tight leading-[1.46] text-center">
-                            Scout Innovative Solutions to your Business Problems
-                            through Us
+                            Find creative solutions to your business challenges
+                            with us
                         </h1>
                         <div className="text-center">
                             <p className="text-muted text-xl md:text-2xl leading-[1.5] line-clamp-2 font-normal">
-                                Crowdsource Innovative solutions and adopt your
+                                Crowdsource cutting-edge solutions and
                             </p>
                             <p className="text-muted text-xl md:text-2xl leading-[1.5] line-clamp-2 font-normal">
-                                developer products/APIs Through us
+                                integrate your developer tools with us
                             </p>
                         </div>
 

@@ -1,3 +1,4 @@
+import { Typewriter } from "react-simple-typewriter";
 import { default as HeroSvg } from "./svgs/hero";
 
 const Hero = () => {
@@ -6,11 +7,16 @@ const Hero = () => {
             <div className="md:px-24 text-center md:text-left">
                 <div className="max-w-3xl flex flex-col gap-8 md:gap-16">
                     <div className="flex flex-col gap-5">
-                        <h1 className="font-bold text-6xl tracking-tight leading-[1.46]">
+                        <h1 className="font-bold text-6xl tracking-tight">
                             Build Innovative{" "}
-                            <span className="text-secondary-foreground underline underline-offset-8">
-                                Solutions
-                            </span>{" "}
+                            <span className="text-secondary-foreground underline underline-offset-8 block md:inline">
+                                <Typewriter
+                                    words={["Solutions", "Products", "Things"]}
+                                    loop={0}
+                                />
+                            </span>
+                        </h1>
+                        <h1 className="font-bold text-6xl tracking-tight">
                             Through Hackathons
                         </h1>
                     </div>
@@ -21,7 +27,10 @@ const Hero = () => {
                                 Solve the Right use cases with Right Builders
                             </p>
                             <p className="text-muted text-2xl leading-[1.5]">
-                                Across the globe. It's Time to Build Yours!
+                                across the globe, collaborating to innovate and
+                            </p>
+                            <p className="text-muted text-2xl leading-[1.5]">
+                                make a real impact
                             </p>
                         </div>
 
