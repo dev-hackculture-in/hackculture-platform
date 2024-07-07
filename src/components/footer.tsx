@@ -2,7 +2,7 @@ import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const Footer = () => {
     return (
-        <div className="w-full border-t border-primary-foreground bg-background text-muted">
+        <div className="w-full border-t border-primary-foreground bg-background text-muted fixed">
             <div className="flex flex-col-reverse p-6 gap-7 md:flex-row h-full items-center container justify-between">
                 <div className="flex flex-col md:flex-row items-center gap-3 md:gap-8 font-medium text-xl">
                     <a href="https://www.termsfeed.com/live/d619dcf5-694a-4c99-9881-8eb825a581bd" target="_blank" rel="noopener noreferrer">Join Community</a>
