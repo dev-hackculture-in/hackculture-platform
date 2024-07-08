@@ -3,7 +3,10 @@ import HeroBg from "./svgs/hero-bg";
 
 const Companies = () => {
     return (
-        <div className=" bg-background relative overflow-hidden">
+        <div
+            className="bg-background relative overflow-hidden pb-20"
+            id="organizers"
+        >
             <HeroBg className="absolute" />
             <div className="container md:p-24 p-8 relative">
                 <div className="bg-foreground opacity-100 rounded-[10px] px-8 py-4 md:px-24 md:py-16">

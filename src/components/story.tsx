@@ -5,7 +5,10 @@ import { StorySvgs } from "./svgs/story-svgs";
 
 const Story = () => {
     return (
-        <div className="container p-8 md:p-24 text-center md:text-left">
+        <div
+            className="container p-8 md:p-24 text-center md:text-left"
+            id="about"
+        >
             <div className="flex flex-col gap-16 md:gap-24">
                 <h1 className="font-semibold text-6xl">Our Story</h1>
                 <div className="md:flex md:gap-48">
@@ -51,10 +54,10 @@ const Story = () => {
                             Our mission extends beyond hackathons; we're
                             dedicated to tailoring solutions just for you
                         </p>
-                        <p className="text-muted text-2xl leading-[1.5] font-normal">
+                        <p className="text-muted text-2xl leading-[1.5] font-normal break-words">
                             Our platform connects passionate builders with
-                            real-world use cases through dynamic{" "}
-                            <span>
+                            real-world use cases through dynamic <br />
+                            <span className="">
                                 <Typewriter
                                     words={["hackathons", "hackerhouses"]}
                                     loop={0}

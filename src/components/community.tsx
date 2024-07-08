@@ -7,7 +7,7 @@ interface CommunityProps {}
 
 const Community: React.FC<CommunityProps> = () => {
     return (
-        <div className="bg-background py-12 md:py-24">
+        <div className="bg-background py-12 md:py-24" id="builders">
             <div className="flex flex-col gap-16 md:gap-24">
                 <div className="container md:px-24 text-center md:text-left font-semibold text-6xl leading-[1.36]">
                     <h1>A Collaborative Community</h1>

@@ -16,13 +16,13 @@ const App = () => {
             className="bg-foreground text-primary min-h-screen lg:block "
         >
             <div className="relative overflow-hidden">
-                <HeroBg className="absolute" />
+                <HeroBg className="absolute pointer-events-none" />
                 <Navbar />
                 <Hero />
             </div>
             <div className="relative overflow-hidden">
-            <HeroBg className="absolute" />
-            <MobileIcon />
+                <HeroBg className="absolute pointer-events-none" />
+                <MobileIcon />
             </div>
             <Logos />
             <Story />
