@@ -2,34 +2,45 @@ import React, { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 interface CommunityCardProps {
-    rotateDegrees?: 6 | -6;
-    communitySvg: ReactNode
+    communitySvg: ReactNode;
+    index: number;
+    name: string;
+    desc: string;
 }
 
-const CommunityCard: React.FC<CommunityCardProps> = ({rotateDegrees = 6, communitySvg}) => {
+const CommunityCard: React.FC<CommunityCardProps> = ({
+    communitySvg,
+    index,
+    name,
+    desc,
+}) => {
     return (
         <div className="flex flex-col gap-4 max-w-[10rem]">
             <div className="relative">
-                <img src="/community.png" className={cn("", {
-                    "rotate-6": rotateDegrees === 6,
-                    "-rotate-6": rotateDegrees === -6
-                })} />
+                <img
+                    src={`/community/community-${index + 1}.png`}
+                    className={cn("rounded-md shadow-lg", {
+                        "rotate-6": (index + 1) % 2 !== 0,
+                        "-rotate-6": (index + 1) % 2 === 0,
+                    })}
+                />
                 <div className="absolute inset-x-[75%] inset-y-[-15%] size-20">
-                {communitySvg}
+                    {communitySvg}
                 </div>
             </div>
             <div className="text-center">
-                <div className="bg-accent my-2 rounded-[6px]">
-                    <p className="font-semibold text-lg text-black">
-                        Arpit Yadav
-                    </p>
+                <div
+                    className={cn("my-2 rounded-[6px]", {
+                        "bg-accent": (index + 1) % 2 === 0,
+                        "bg-secondary-foreground": (index + 1) % 2 !== 0,
+                    })}
+                >
+                    <p className="font-semibold text-lg text-black">{name}</p>
                 </div>
                 <p className="text-primary-foreground font-semibold">
                     I'm building
                 </p>
-                <p className="font-semibold">
-                    Sustainability Solutions For Google
-                </p>
+                <p className="font-semibold">{desc}</p>
             </div>
         </div>
     );
