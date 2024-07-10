@@ -43,6 +43,7 @@ const Community: React.FC<CommunityProps> = () => {
                         <Carousel
                             opts={{
                                 loop: true,
+                                watchDrag: false,
                             }}
                             plugins={[AutoScroll({ playOnInit: true })]}
                         >

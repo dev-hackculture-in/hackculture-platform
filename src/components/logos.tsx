@@ -8,6 +8,7 @@ const Logos = () => {
             <Carousel
                 opts={{
                     loop: true,
+                    watchDrag: false,
                 }}
                 plugins={[AutoScroll({ playOnInit: true })]}
             >
