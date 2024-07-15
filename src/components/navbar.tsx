@@ -1,4 +1,5 @@
 import { Icons } from "./icons";
+import MobileNav from "./mobile-nav";
 
 const Navbar = () => {
     return (
@@ -44,7 +45,7 @@ const Navbar = () => {
             </div>
 
             <div className="md:hidden">
-                <Icons.menu className="size-8" />
+                <MobileNav />
             </div>
         </div>
     );
