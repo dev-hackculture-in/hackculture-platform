@@ -26,7 +26,12 @@ const Companies = () => {
                             Find creative solutions to your business challenges
                             with us
                         </h1>
-                        <div className="text-center">
+                        <div
+                            className="text-center"
+                            style={{
+                                fontFamily: "Inter, sans serif",
+                            }}
+                        >
                             <p className="text-muted text-xl md:text-2xl leading-[1.5] line-clamp-2 font-normal">
                                 Crowdsource cutting-edge solutions and
                             </p>

@@ -19,12 +19,12 @@ const CommunityCard: React.FC<CommunityCardProps> = ({
             <div className="relative">
                 <img
                     src={`/community/community-${index + 1}.png`}
-                    className={cn("rounded-md shadow-lg", {
+                    className={cn("rounded-[32px] shadow-lg", {
                         "rotate-6": (index + 1) % 2 !== 0,
                         "-rotate-6": (index + 1) % 2 === 0,
                     })}
                 />
-                <div className="absolute inset-x-[75%] inset-y-[-15%] size-20">
+                <div className="absolute inset-x-[75%] inset-y-[-5%] size-16">
                     {communitySvg}
                 </div>
             </div>

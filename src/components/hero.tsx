@@ -7,29 +7,32 @@ const Hero = () => {
             <div className="md:px-24 text-center md:text-left">
                 <div className="max-w-3xl flex flex-col gap-8 md:gap-16">
                     <div className="flex flex-col gap-5">
-                        <h1 className="font-bold text-6xl tracking-tight">
+                        <h1 className="font-bold text-4xl md:text-6xl tracking-tight">
                             Build Innovative{" "}
-                            <span className="text-secondary-foreground underline underline-offset-8 block md:inline">
+                            <span className="text-secondary-foreground underline underline-offset-8 block md:inline h-8">
                                 <Typewriter
                                     words={["Solutions", "Products", "Things"]}
                                     loop={0}
                                 />
                             </span>
                         </h1>
-                        <h1 className="font-bold text-6xl tracking-tight">
+                        <h1 className="font-bold text-4xl md:text-6xl tracking-tight">
                             Through Hackathons
                         </h1>
                     </div>
 
-                    <div className="flex flex-col gap-8">
+                    <div
+                        className="flex flex-col gap-8"
+                        style={{ fontFamily: "Inter, sans serif" }}
+                    >
                         <div>
-                            <p className="text-muted text-2xl leading-[1.5]">
+                            <p className="text-muted text-xl md:text-2xl leading-[1.5]">
                                 Solve the Right use cases with Right Builders
                             </p>
-                            <p className="text-muted text-2xl leading-[1.5]">
+                            <p className="text-muted text-xl md:text-2xl leading-[1.5]">
                                 across the globe, collaborating to innovate and
                             </p>
-                            <p className="text-muted text-2xl leading-[1.5]">
+                            <p className="text-muted text-xl md:text-2xl leading-[1.5]">
                                 make a real impact
                             </p>
                         </div>

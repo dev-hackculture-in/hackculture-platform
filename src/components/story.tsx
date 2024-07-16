@@ -10,7 +10,9 @@ const Story = () => {
             id="about"
         >
             <div className="flex flex-col gap-16 md:gap-24">
-                <h1 className="font-semibold text-6xl">Our Story</h1>
+                <h1 className="font-semibold text-4xl md:text-6xl">
+                    Our Story
+                </h1>
                 <div className="md:flex md:gap-48">
                     <div className="md:w-5/12">
                         <div className="relative">
@@ -50,11 +52,16 @@ const Story = () => {
                         </div>
                     </div>
                     <div className="md:w-6/12 flex flex-col gap-8 md:gap-24">
-                        <p className="text-4xl leading-[1.5] font-normal">
+                        <p className="text-2xl md:text-4xl leading-[1.5] font-normal">
                             Our mission extends beyond hackathons; we're
                             dedicated to tailoring solutions just for you
                         </p>
-                        <p className="text-muted text-2xl leading-[1.5] font-normal break-words">
+                        <p
+                            className="text-muted text-xl md:text-2xl leading-[1.5] font-normal break-words"
+                            style={{
+                                fontFamily: "Inter, sans serif",
+                            }}
+                        >
                             Our platform connects passionate builders with
                             real-world use cases through dynamic <br />
                             <span className="">

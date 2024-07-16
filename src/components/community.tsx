@@ -15,11 +15,11 @@ const names = [
     "Sparsh Rao",
 ];
 const descs = [
-    "I am building AI-Enabled IOT Solutions for sustainable industries",
-    'I am building "I, Saras", a GenAI tool for UPSC and competitive exam preparation',
-    "I'm building AuraX, transforming stores into accurate AR visualisations.",
-    "I'm building a high-tech, precision-engineered, cost-effective jetboards.",
-    "I'm building AI powered NeatProcess platform for FMCG brands",
+    "AI-Enabled IOT Solutions for sustainable industries",
+    '"I, Saras", a GenAI tool for UPSC and competitive exam preparation',
+    "AuraX, transforming stores into accurate AR visualisations.",
+    "A high-tech, precision-engineered, cost-effective jetboards.",
+    "AI powered NeatProcess platform for FMCG brands",
 ];
 const svgs = [
     <CommunitySvgs.crown />,
