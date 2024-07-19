@@ -34,7 +34,7 @@ const StoryCard: React.FC<StoryCardProps> = ({
             </div>
             <div className="pl-4 pb-4 pt-4 pr-2">
                 <p
-                    className={cn("font-semibold text-3xl", {
+                    className={cn("font-semibold text-2xl md:text-3xl", {
                         "text-primary": headingColor === "white",
                         "text-black": headingColor === "black",
                     })}
@@ -42,7 +42,7 @@ const StoryCard: React.FC<StoryCardProps> = ({
                     {heading}
                 </p>
                 <p
-                    className={cn("font-semibold text-lg", {
+                    className={cn("font-semibold text-md md:text-lg", {
                         "text-primary-foreground":
                             background === "green" || background === "yellow",
                         "text-secondary-foreground": background === "blue",
