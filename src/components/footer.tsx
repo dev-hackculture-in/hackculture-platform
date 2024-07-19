@@ -5,10 +5,18 @@ const Footer = () => {
         <div className="w-full border-t border-primary-foreground bg-background text-muted md:fixed bottom-0 z-[100000]">
             <div className="flex flex-col-reverse p-6 gap-7 md:flex-row h-full items-center container justify-between">
                 <div className="flex flex-col md:flex-row items-center gap-3 md:gap-8 font-medium text-xl">
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://chat.whatsapp.com/Jd9ypPlScO91JLh7XuEZkI "
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Join Community
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://www.termsfeed.com/live/33515683-37c6-4f27-acd9-9ba55d07281b"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Privacy Policy
                     </a>
                     <a href="" target="_blank" rel="noopener noreferrer">

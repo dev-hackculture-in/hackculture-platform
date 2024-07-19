@@ -37,7 +37,12 @@ const Hero = () => {
                             </p>
                         </div>
 
-                        <button className="bg-primary text-background md:max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl">
+                        <button
+                            className="bg-primary text-background md:max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl"
+                            onClick={() =>
+                                window.open("https://tally.so/r/w7Zp0z")
+                            }
+                        >
                             Build Now!
                         </button>
                     </div>

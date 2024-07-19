@@ -42,7 +42,14 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:block">
-                <button className="border border-primary rounded-[10px] px-8 py-3">
+                <button
+                    className="border border-primary rounded-[10px] px-8 py-3"
+                    onClick={() =>
+                        window.open(
+                            "https://chat.whatsapp.com/Jd9ypPlScO91JLh7XuEZkI"
+                        )
+                    }
+                >
                     Join Community
                 </button>
             </div>
