@@ -40,7 +40,12 @@ const Companies = () => {
                             </p>
                         </div>
 
-                        <button className="bg-primary text-background max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl">
+                        <button
+                            className="bg-primary text-background max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl"
+                            onClick={() =>
+                                window.open("https://tally.so/r/mYdgGd")
+                            }
+                        >
                             Learn More
                         </button>
                     </div>

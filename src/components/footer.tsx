@@ -19,8 +19,12 @@ const Footer = () => {
                     >
                         Privacy Policy
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        Terms & Conditions
+                    <a
+                        href="https://tally.so/r/mYdgGd"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Organize Hackathon
                     </a>
                 </div>
                 <div className="flex items-center gap-4">
