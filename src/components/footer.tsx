@@ -2,7 +2,7 @@ import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const Footer = () => {
     return (
-        <div className="w-full border-t border-primary-foreground bg-background text-muted md:fixed bottom-0 z-[100000]">
+        <div className="w-full border-t border-primary-foreground bg-background text-muted z-[100000]">
             <div className="flex flex-col-reverse p-6 gap-7 md:flex-row h-full items-center container justify-between">
                 <div className="flex flex-col md:flex-row items-center gap-3 md:gap-8 font-medium text-xl">
                     <a
