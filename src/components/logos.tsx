@@ -13,7 +13,7 @@ const Logos = () => {
                 plugins={[AutoScroll({ playOnInit: true })]}
             >
                 <CarouselContent>
-                    {Array.from({ length: 7 }).map((_, index) => (
+                    {Array.from({ length: 8 }).map((_, index) => (
                         <CarouselItem
                             key={index}
                             className="basis-1/2 md:basis-1/6"
