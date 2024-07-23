@@ -19,7 +19,7 @@ const MobileStory = () => {
                     <StoryCard
                         cardSvg={<StorySvgs.svg1 />}
                         background="blue"
-                        heading="8000+"
+                        heading="3000+"
                         text="Builders"
                         width={48}
                     />
@@ -28,7 +28,7 @@ const MobileStory = () => {
                     <StoryCard
                         cardSvg={<StorySvgs.svg2 />}
                         background="yellow"
-                        heading="200+"
+                        heading="20+"
                         text="Hackathons"
                         headingColor="black"
                         width={36}
