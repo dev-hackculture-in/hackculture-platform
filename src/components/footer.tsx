@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="flex flex-col-reverse p-6 gap-7 md:flex-row h-full items-center container justify-between">
                 <div className="flex flex-col md:flex-row items-center gap-3 md:gap-8 font-medium text-xl">
                     <a
-                        href="https://chat.whatsapp.com/Jd9ypPlScO91JLh7XuEZkI "
+                        href="https://bento.me/hackculture?fbclid=PAZXh0bgNhZW0CMTEAAaZ2G6RoLRg3D1yV6wZkOxZtfT3W2z5HO-Zt6qXQ-HXmDC6dtcH4Q3jAF-4_aem_2znBlczL_lVpW57ZFdtY4Q"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
