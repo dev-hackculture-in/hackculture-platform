@@ -46,7 +46,7 @@ const Navbar = () => {
                     className="border border-primary rounded-[10px] px-8 py-3"
                     onClick={() =>
                         window.open(
-                            "https://chat.whatsapp.com/Jd9ypPlScO91JLh7XuEZkI"
+                            "https://bento.me/hackculture?fbclid=PAZXh0bgNhZW0CMTEAAaZ2G6RoLRg3D1yV6wZkOxZtfT3W2z5HO-Zt6qXQ-HXmDC6dtcH4Q3jAF-4_aem_2znBlczL_lVpW57ZFdtY4Q"
                         )
                     }
                 >
