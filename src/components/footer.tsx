@@ -1,4 +1,8 @@
-import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import {
+    InstagramLogoIcon,
+    LinkedInLogoIcon,
+    TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 
 const Footer = () => {
     return (
@@ -41,6 +45,13 @@ const Footer = () => {
                         rel="noopener noreferrer"
                     >
                         <InstagramLogoIcon className="size-6" />
+                    </a>
+                    <a
+                        href="https://x.com/Hack_Culture"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <TwitterLogoIcon className="size-6" />
                     </a>
                 </div>
             </div>
