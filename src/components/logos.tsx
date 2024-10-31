@@ -26,11 +26,11 @@ const Logos = () => {
                                             index + 1 !== 5 ||
                                             index + 1 !== 7 ||
                                             index + 1 !== 8,
+                                        "size-36": index + 1 === 9,
                                         "size-24":
                                             index + 1 === 5 ||
                                             index + 1 === 7 ||
-                                            index + 1 === 8 ||
-                                            index + 1 === 9,
+                                            index + 1 === 8,
                                     })}
                                 />
                             </div>
