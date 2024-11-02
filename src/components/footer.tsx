@@ -1,8 +1,4 @@
-import {
-    InstagramLogoIcon,
-    LinkedInLogoIcon,
-    TwitterLogoIcon,
-} from "@radix-ui/react-icons";
+import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const Footer = () => {
     return (
@@ -51,7 +47,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <TwitterLogoIcon className="size-6" />
+                        <img src="x.png" className="size-6 scale-75" />
                     </a>
                 </div>
             </div>
