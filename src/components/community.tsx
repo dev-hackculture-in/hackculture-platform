@@ -1,70 +1,32 @@
-import React from "react";
-import CommunityCard from "./community-card";
-import CommunityBg from "./svgs/community-bg";
-import { CommunitySvgs } from "./svgs/community-svgs";
-import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-import AutoScroll from "embla-carousel-auto-scroll";
-
-interface CommunityProps {}
-
-const names = [
-    "Harsha Srinivas",
-    "Nippu Naresh",
-    "Rahul Khatri",
-    "Ratheesh M",
-    "Sparsh Rao",
-];
-const descs = [
-    "AI-Enabled IOT Solutions for sustainable industries",
-    '"I, Saras", a GenAI tool for UPSC and competitive exam preparation',
-    "AuraX, transforming stores into accurate AR visualisations.",
-    "A high-tech, precision-engineered, cost-effective jetboards.",
-    "AI powered NeatProcess platform for FMCG brands",
-];
-const svgs = [
-    <CommunitySvgs.crown />,
-    <CommunitySvgs.twinkle />,
-    <CommunitySvgs.misc />,
-    <CommunitySvgs.stars />,
-    <CommunitySvgs.thunder />,
-];
-
-const Community: React.FC<CommunityProps> = () => {
+const Community = () => {
     return (
-        <div className="bg-background py-12 md:py-24" id="builders">
-            <div className="flex flex-col gap-16 md:gap-24">
-                <div className="container md:px-24 text-center md:text-left font-semibold text-4xl md:text-6xl leading-[1.36]">
-                    <h1>A Collaborative Community</h1>
-                    <h1>Where ideas turn into reality</h1>
-                </div>
-                <div className="relative">
-                    <CommunityBg className="absolute w-full inset-y-16 md:-inset-y-1/4 z-1" />
-                    <div className="z-20">
-                        <Carousel
-                            opts={{
-                                loop: true,
-                                watchDrag: false,
-                            }}
-                            plugins={[AutoScroll({ playOnInit: true })]}
-                        >
-                            <CarouselContent className="py-4">
-                                {Array.from({ length: 5 }).map((_, index) => (
-                                    <CarouselItem
-                                        key={index}
-                                        className="md:basis-1/3"
-                                    >
-                                        <CommunityCard
-                                            index={index}
-                                            name={names[index]}
-                                            desc={descs[index]}
-                                            communitySvg={svgs[index]}
-                                        />
-                                    </CarouselItem>
-                                ))}
-                            </CarouselContent>
-                        </Carousel>
-                    </div>
-                </div>
+        <div className="container p-8 md:p-24 text-center md:text-left" >
+            <h1 className="font-semibold text-4xl md:text-8xl uppercase text-primary-foreground">Our</h1>
+            <div className="flex flex-col md:flex-row items-center">
+                <h2 className="font-semibold text-4xl md:text-8xl uppercase text-primary-foreground">Partners</h2>
+                <button
+              className="bg-primary-foreground text-white md:max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl md:mx-16"
+              onClick={() => window.open("https://tally.so/r/w7Zp0z")}
+            >
+              Partner with Us
+            </button>
+            </div>
+
+            <div className="grid grid-cols-3 gap-4 md:grid-cols-5 py-8">
+                {Array.from({ length: 10 }, (_, i) => (
+                    <div className="relative" key={i}>
+          {/* Shadow Layer */}
+          <div className="absolute top-2 left-2 w-full h-full bg-gray-800 rounded-3xl"></div>
+          
+          {/* Main Card */}
+          <div className="relative bg-white w-full h-full rounded-3xl border-2 border-gray-200 p-8 flex flex-col items-center justify-center">
+            {/* GitHub Logo */}
+            <div className=" mb-4">
+              <img src={`/community/${i+1}.png`} />
+            </div>
+          </div>
+        </div>
+                ))}
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import AutoScroll from "embla-carousel-auto-scroll";
 
 const Logos = () => {
     return (
-        <div className="py-4 bg-background">
+        <div className="py-4 bg-[#f9f6f6]">
             <Carousel
                 opts={{
                     loop: true,
@@ -21,7 +21,7 @@ const Logos = () => {
                             <div className="flex justify-center items-center h-24">
                                 <img
                                     src={`/logos/logo-${index + 1}.png`}
-                                    className={cn("object-contain", {
+                                    className={cn("object-contain filter grayscale", {
                                         "size-44":
                                             index + 1 !== 5 ||
                                             index + 1 !== 7 ||
