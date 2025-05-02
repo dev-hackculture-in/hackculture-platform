@@ -1,9 +1,9 @@
 const Community = () => {
     return (
-        <div className="container p-8 md:p-24 text-center md:text-left" >
-            <h1 className="font-semibold text-4xl md:text-8xl uppercase text-primary-foreground">Our</h1>
-            <div className="flex flex-col md:flex-row items-center">
-                <h2 className="font-semibold text-4xl md:text-8xl uppercase text-primary-foreground">Partners</h2>
+        <div className="container p-8 md:p-24 text-left" >
+            <h1 className="font-semibold text-6xl md:text-8xl uppercase text-primary-foreground">Our</h1>
+            <div className="flex flex-col md:flex-row gap-4 md:items-center">
+                <h2 className="font-semibold text-6xl md:text-8xl uppercase text-primary-foreground">Partners</h2>
                 <button
               className="bg-primary-foreground text-white md:max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl md:mx-16"
               onClick={() => window.open("https://tally.so/r/w7Zp0z")}
@@ -12,7 +12,7 @@ const Community = () => {
             </button>
             </div>
 
-            <div className="grid grid-cols-3 gap-4 md:grid-cols-5 py-8">
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-5 py-8">
                 {Array.from({ length: 10 }, (_, i) => (
                     <div className="relative" key={i}>
           {/* Shadow Layer */}

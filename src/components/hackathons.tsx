@@ -29,13 +29,13 @@ export default function Hackathon() {
   ];
 
   return (
-    <div className="container py-8">
+    <div className="md:container py-8">
       <Carousel className="w-full">
         <CarouselContent className="m-5 -ml-4">
           {hackathons.map((hackathon, index) => (
             <CarouselItem
               key={index}
-              className="pl-12 md:basis-1/2 lg:basis-1/3"
+              className="pl-8 md:pl-12 md:basis-1/2 lg:basis-1/3"
             >
               <div className="w-full max-w-md relative">
                 {/* Shadow */}
@@ -57,7 +57,7 @@ export default function Hackathon() {
 
                   {/* Challenge Title */}
                   <div className="px-6 py-6">
-                    <h2 className="text-2xl font-bold text-white truncate">
+                    <h2 className="text-xl md:text-2xl font-bold text-white truncate">
                       {hackathon.title}
                     </h2>
                   </div>

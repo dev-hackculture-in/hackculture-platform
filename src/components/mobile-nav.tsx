@@ -14,13 +14,15 @@ const MobileNav = () => {
 
     return (
         <div>
-            <Icons.menu
-                className="size-8"
+            <div className="bg-primary-foreground rounded-full text-white cursor-pointer p-2">            <Icons.menu
+                className="size-8 "
                 onClick={() => setShowNav((prev) => !prev)}
             />
+            </div>
+
             <div
                 className={cn(
-                    "bg-background",
+                    "bg-primary-foreground text-white",
                     showNav ? "showMenuNav" : "hideMenuNav"
                 )}
             >
@@ -29,7 +31,7 @@ const MobileNav = () => {
                     onClick={() => setShowNav(false)}
                 >
                     <svg
-                        className="h-8 w-8 text-white"
+                        className="h-8 w-8 bg-primary-foreground rounded-full text-white"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -56,6 +58,14 @@ const MobileNav = () => {
                             onClick={() => onNavClick("organizers")}
                         >
                             For Organizers
+                        </a>
+                    </li>
+                    <li className="border-b border-gray-400 my-8 uppercase">
+                        <a
+                            className="cursor-pointer"
+                            onClick={() => onNavClick("organizers")}
+                        >
+                            Join Community
                         </a>
                     </li>
                     <li className="border-b border-gray-400 my-8 uppercase">

@@ -3,7 +3,7 @@ import MobileNav from "./mobile-nav";
 
 const Navbar = () => {
     return (
-        <div className="h-24 flex items-center justify-between pr-8 max-w-[1400px] mx-auto">
+        <div className="h-24 flex items-center justify-between px-4 max-w-[1400px] mx-auto">
             <a href="/">
                 <Icons.logo className="cursor-pointer" />
             </a>

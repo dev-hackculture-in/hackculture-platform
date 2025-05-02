@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import Hackathons from "./components/hackathons";
 import Hero from "./components/hero";
 import Logos from "./components/logos";
-import MobileIcon from "./components/mobile-icon";
 import Navbar from "./components/navbar";
 import Story from "./components/outcomes";
 import Stub from "./components/stub";
@@ -24,7 +23,6 @@ const App = () => {
             </div>
             <div className="relative overflow-hidden">
                 <HeroBg className="absolute pointer-events-none" />
-                <MobileIcon />
             </div>
             <Logos />
             <Hackathons />

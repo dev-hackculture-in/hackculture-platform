@@ -5,9 +5,9 @@ const Stub = ( ) => {
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:px-24 md:py-36 relative items-center">
 
-                <h1 className="text-2xl md:text-4xl font-bold text-white">We fast-track open innovation through sourcing ideas & co-creating solutions with Startups, Scaleups, Universities and Builders with minimal efforts</h1>
-                <div>
-                <svg width="447" height="357" viewBox="0 0 447 357" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <h1 className="text-3xl md:text-4xl font-bold text-white">We fast-track open innovation through sourcing ideas & co-creating solutions with Startups, Scaleups, Universities and Builders with minimal efforts</h1>
+                <div className="flex items-center justify-center w-full">
+                <svg className="" width="447" height="357" viewBox="0 0 447 357" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <ellipse cx="409.771" cy="319.799" rx="36.8281" ry="36.362" fill="url(#pattern0_113_39)"/>
 <mask id="mask0_113_39" style={{"maskType" : "alpha"}} maskUnits="userSpaceOnUse" x="176" y="2" width="178" height="355">
 <path d="M353.364 170.408C353.364 356.161 353.364 170.408 353.364 356.161C255.528 356.161 176.216 277.058 176.216 179.479C176.216 81.9003 255.528 2.79712 353.364 2.79712C353.364 170.408 353.364 2.79712 353.364 170.408Z" fill="#D9D9D9"/>

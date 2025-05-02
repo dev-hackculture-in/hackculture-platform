@@ -1,9 +1,9 @@
 const Outcomes = () => {
   return (
-    <div className="container p-8 md:p-24 text-center md:text-left" id="about">
+    <div className="container p-8 md:p-24 text-left" id="about">
       <div className="flex flex-col gap-16 md:gap-16">
         <div>
-          <h1 className="font-semibold text-4xl md:text-8xl uppercase">
+          <h1 className="font-semibold text-6xl md:text-8xl uppercase">
             Outcomes
           </h1>
           <h2 className="font-semibold text-2xl md:text-4xl uppercase">
@@ -54,8 +54,8 @@ const Outcomes = () => {
               className={`${box.width} ${box.height} bg-${box.bg} text-${box.text} rounded-xl p-8 relative`}
             >
                 <div className="flex flex-col">
-            <h1 className="text-4xl font-bold mb-4 max-w-56">{box.title}</h1>
-            <p className="text-2xl font-light">{box.desc}</p>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 max-w-48 md:max-w-56">{box.title}</h1>
+            <p className="text-lg md:text-2xl font-light">{box.desc}</p>
           </div>
           
           {/* Arrow Icon */}

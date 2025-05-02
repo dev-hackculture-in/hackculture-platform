@@ -3,7 +3,7 @@ import { CompaniesSvgs } from "./svgs/companies-svgs";
 const Companies = () => {
     return (
         <div
-            className="bg-primary-foreground relative overflow-hidden pb-20"
+            className="bg-primary-foreground relative overflow-hidden md:pb-20"
             id="organizers"
         >
             <div className="container md:p-24 p-8 relative">
@@ -16,7 +16,7 @@ const Companies = () => {
                     </div>
                     <div className="flex flex-col gap-12 items-center py-10 md:py-0">
                         <div className="bg-primary-foreground rounded-[10px] px-8 md:px-20 py-3">
-                            <h1 className="font-semibold text-white text-2xl whitespace-nowrap">
+                            <h1 className="font-semibold text-white text-sm md:text-2xl whitespace-nowrap">
                                 For Future Ready Companies
                             </h1>
                         </div>
