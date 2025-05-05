@@ -1,6 +1,7 @@
 const Stub = ( ) => {
     return (
         <div
+        id="about"
             className="bg-primary-foreground relative overflow-hidden"
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:px-24 md:py-36 relative items-center">
