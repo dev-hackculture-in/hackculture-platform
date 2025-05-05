@@ -92,7 +92,7 @@ const Hero = () => {
 
                     <h2 className="text-xl md:text-3xl font-bold text-white">Build with us</h2>
 
-                    <button className="bg-white text-primary-foreground py-1 md:py-3 px-6 rounded-lg w-full font-bold">
+                    <button className="bg-white text-primary-foreground py-1 md:py-3 px-6 rounded-lg w-full font-bold" onClick={() => window.open("https://tally.so/r/w4q7er")}>
                     Contact Us
                     </button>
                   </div>
@@ -127,13 +127,13 @@ const Hero = () => {
 
                     <h2 className="text-xl md:text-3xl font-bold">Find Use Cases</h2>
 
-                    <button className="bg-black text-white py-1 md:py-3 px-6 rounded-lg w-full font-bold">
+                    <button className="bg-black text-white py-1 md:py-3 px-6 rounded-lg w-full font-bold" onClick={() => window.open("https://tally.so/r/w7Zp0z")}>
                       Build Now
                     </button>
                   </div>
                 </div>
               </div>
-              <div className="relative w-44 md:w-64 pt-4 pb-6">
+              <div className="invisible relative w-44 md:w-64 pt-4 pb-6">
                 <div className="absolute bottom-0 right-0 h-3/6 w-full rounded-3xl border-2 border-black -translate-y-2 -translate-x-4"></div>
 
                 <div className="relative z-10 rounded-3xl bg-accent p-4 md:p-6">

@@ -47,7 +47,7 @@ const MobileNav = () => {
                     <li className="border-b border-gray-400 my-8 uppercase">
                         <a
                             className="cursor-pointer"
-                            onClick={() => onNavClick("builders")}
+                            onClick={() => window.open("https://tally.so/r/w7Zp0z")}
                         >
                             For Builders
                         </a>
@@ -55,7 +55,7 @@ const MobileNav = () => {
                     <li className="border-b border-gray-400 my-8 uppercase">
                         <a
                             className="cursor-pointer"
-                            onClick={() => onNavClick("organizers")}
+                            onClick={() => window.open("https://tally.so/r/w4q7er")}
                         >
                             For Organizers
                         </a>
@@ -63,7 +63,9 @@ const MobileNav = () => {
                     <li className="border-b border-gray-400 my-8 uppercase">
                         <a
                             className="cursor-pointer"
-                            onClick={() => onNavClick("organizers")}
+                            onClick={() => window.open(
+                                "https://bento.me/hackculture?fbclid=PAZXh0bgNhZW0CMTEAAaZ2G6RoLRg3D1yV6wZkOxZtfT3W2z5HO-Zt6qXQ-HXmDC6dtcH4Q3jAF-4_aem_2znBlczL_lVpW57ZFdtY4Q"
+                            )}
                         >
                             Join Community
                         </a>

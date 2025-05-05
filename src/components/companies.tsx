@@ -26,7 +26,7 @@ const Companies = () => {
                         <button
                             className="bg-white text-black max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl"
                             onClick={() =>
-                                window.open("https://tally.so/r/mYdgGd")
+                                window.open("https://tally.so/r/w4q7er")
                             }
                         >
                             Contact Us

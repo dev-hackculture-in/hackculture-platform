@@ -34,9 +34,7 @@ const Navbar = () => {
                 <a
                     className="cursor-pointer"
                     onClick={() =>
-                        document.getElementById("builders")?.scrollIntoView({
-                            behavior: "smooth",
-                        })
+                        window.open("https://tally.so/r/w7Zp0z")
                     }
                 >
                     For Builders
@@ -44,9 +42,7 @@ const Navbar = () => {
                 <a
                     className="cursor-pointer"
                     onClick={() =>
-                        document.getElementById("organizers")?.scrollIntoView({
-                            behavior: "smooth",
-                        })
+                        window.open("https://tally.so/r/w4q7er")
                     }
                 >
                     For Organizers

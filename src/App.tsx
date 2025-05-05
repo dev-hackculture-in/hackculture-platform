@@ -25,11 +25,11 @@ const App = () => {
                 <HeroBg className="absolute pointer-events-none" />
             </div>
             <Logos />
-            <Hackathons />
+            {/* <Hackathons /> */}
             <Stub />
             <Story />
             <Banner />
-            <Community />
+            {/* <Community /> */}
             <Companies />
             <Footer />
         </div>
