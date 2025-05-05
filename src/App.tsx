@@ -1,8 +1,8 @@
 import Banner from "./components/banner";
-import Community from "./components/community";
+// import Community from "./components/community";
 import Companies from "./components/companies";
 import Footer from "./components/footer";
-import Hackathons from "./components/hackathons";
+// import Hackathons from "./components/hackathons";
 import Hero from "./components/hero";
 import Logos from "./components/logos";
 import Navbar from "./components/navbar";
