@@ -1,6 +1,6 @@
 const Outcomes = () => {
   return (
-    <div className="container p-8 md:p-24 text-left" id="about">
+    <div className="container p-8 md:p-24 text-left">
       <div className="flex flex-col gap-16 md:gap-16">
         <div>
           <h1 className="font-semibold text-6xl md:text-8xl uppercase">
