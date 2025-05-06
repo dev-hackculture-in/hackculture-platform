@@ -59,8 +59,8 @@ const Hero = () => {
         </div>
 
         <div>
-          <div className="grid grid-cols-2 gap-x-8 md:gap-x-16 max-w-4xl mx-auto">
-            <div className="flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 md:gap-x-16 max-w-4xl mx-auto p-6">
+            <div className="flex items-center justify-start">
               <div className="relative w-56 md:w-64 pt-4 pb-6">
                 <div className="absolute bottom-0 right-0 h-3/6 w-full rounded-3xl border-2 border-black -translate-y-2 -translate-x-4"></div>
 
@@ -69,11 +69,11 @@ const Hero = () => {
 
                   {/* Text content */}
                   <div className="space-y-6">
-                    <p className="text-xl md:text-3xl font-bold text-white">For Organizers</p>
+                    <p className="text-xl md:text-3xl font-bold text-white">For <br />Organizers</p>
 
                     <hr />
 
-                    <h2 className="text-lg md:text-2xl text-white">Companies, Universities & Communities
+                    <h2 className="text-lg md:text-2xl text-white">Companies,<br/> Universities &<br/> Communities
                     </h2>
 
                     <button className="bg-white text-primary-foreground py-1 md:py-3 px-6 rounded-lg w-full font-bold" onClick={() => window.open("https://tally.so/r/w4q7er")}>
@@ -83,8 +83,8 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col gap-8">
-              <div className="relative w-44 md:w-64 pt-4 pb-6">
+            <div className="flex items-center justify-end">
+              <div className="relative w-56 md:w-64 pt-4 pb-6">
                 {/* Shadow element - positioned behind the card */}
                 <div className="absolute bottom-0 right-0 h-3/6 w-full rounded-3xl bg-black -translate-y-2 -translate-x-4"></div>
 
@@ -99,7 +99,7 @@ const Hero = () => {
 
                     <hr className="border-black"/>
 
-                    <h2 className="text-lg md:text-2xl">Students, Startups & Innovators
+                    <h2 className="text-lg md:text-2xl">Students,<br/> Startups &<br/> Innovators
                     </h2>
 
                     <button className="bg-black text-white py-1 md:py-3 px-6 rounded-lg w-full font-bold" onClick={() => window.open("https://tally.so/r/w7Zp0z")}>
