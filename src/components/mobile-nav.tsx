@@ -70,14 +70,6 @@ const MobileNav = () => {
                             Join Community
                         </a>
                     </li>
-                    <li className="border-b border-gray-400 my-8 uppercase">
-                        <a
-                            className="cursor-pointer"
-                            onClick={() => onNavClick("about")}
-                        >
-                            About
-                        </a>
-                    </li>
                 </ul>
             </div>
             <style>{`

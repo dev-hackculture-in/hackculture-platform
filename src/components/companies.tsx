@@ -8,12 +8,12 @@ const Companies = () => {
         >
             <div className="container md:p-24 p-8 relative">
                 <div className="bg-black opacity-100 rounded-[10px] px-8 py-4 md:px-24 md:py-16">
-                    <div className="absolute w-24 md:w-36 inset-x-[75%] md:inset-x-[85%] inset-y-[87%] md:inset-y-[75%]">
+                    {/* <div className="absolute w-24 md:w-36 inset-x-[75%] md:inset-x-[85%] inset-y-[87%] md:inset-y-[75%]">
                         <CompaniesSvgs.svg1 />
                     </div>
                     <div className="absolute w-24 md:w-36 inset-2 md:inset-12">
                         <CompaniesSvgs.svg2 />
-                    </div>
+                    </div> */}
                     <div className="flex flex-col gap-12 items-center py-10 md:py-0">
                         <div className="bg-primary-foreground rounded-[10px] px-8 md:px-20 py-3">
                             <h1 className="font-semibold text-white text-sm md:text-2xl whitespace-nowrap">

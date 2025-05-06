@@ -20,22 +20,15 @@ const Hero = () => {
 
             <div>
               <p className=" text-md md:text-2xl leading-[1.5]">
-                Solve the Right use cases with Right 
+              A platform to source the  
               </p>
               <p className=" text-md md:text-2xl leading-[1.5]">
-              Builders across the globe, collaborating 
+              right solutions & talent for the
               </p>
               <p className=" text-md md:text-2xl leading-[1.5]">
-              to innovate and make a real impact
+               most pressing problems of your organization
               </p>
             </div>
-
-            <button
-              className="bg-primary-foreground hidden md:block text-white md:max-w-min whitespace-nowrap px-8 py-3 rounded-[10px] font-bold text-2xl"
-              onClick={() => window.open("https://tally.so/r/w7Zp0z")}
-            >
-              Get in Touch
-            </button>
 
             <div className="flex py-4 gap-6">
               <div className="flex flex-col gap-4">
@@ -72,25 +65,16 @@ const Hero = () => {
                 <div className="absolute bottom-0 right-0 h-3/6 w-full rounded-3xl border-2 border-black -translate-y-2 -translate-x-4"></div>
 
                 <div className="relative z-10 rounded-3xl bg-primary-foreground p-4 md:p-6">
-                  <div className="flex mb-6">
-                    <div className="border border-white rounded-full w-10 h-10"></div>
-                    <div className="border border-white rounded-full w-10 h-10 -ml-2"></div>
-                    <div className="border border-white rounded-full w-10 h-10 -ml-2"></div>
-                    <div className="bg-white rounded-full w-10 h-10 -ml-2 flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold">
-                        01
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Pill */}
-                  <div className="bg-white rounded-full w-16 h-6 mb-2 md:mb-4"></div>
+                  
 
                   {/* Text content */}
                   <div className="space-y-6">
-                    <p className="text-lg md:text-2xl text-white">For Corporates</p>
+                    <p className="text-xl md:text-3xl font-bold text-white">For Organizers</p>
 
-                    <h2 className="text-xl md:text-3xl font-bold text-white">Build with us</h2>
+                    <hr />
+
+                    <h2 className="text-lg md:text-2xl text-white">Companies, Universities & Communities
+                    </h2>
 
                     <button className="bg-white text-primary-foreground py-1 md:py-3 px-6 rounded-lg w-full font-bold" onClick={() => window.open("https://tally.so/r/w4q7er")}>
                     Contact Us
@@ -107,25 +91,16 @@ const Hero = () => {
                 {/* Main card */}
                 <div className="relative z-10 rounded-3xl bg-secondary-foreground p-4 md:p-6">
                   {/* Top circles */}
-                  <div className="flex mb-6">
-                    <div className="border border-black rounded-full w-10 h-10"></div>
-                    <div className="border border-black rounded-full w-10 h-10 -ml-2"></div>
-                    <div className="border border-black rounded-full w-10 h-10 -ml-2"></div>
-                    <div className="bg-black rounded-full w-10 h-10 -ml-2 flex items-center justify-center">
-                      <span className="text-secondary-foreground font-bold">
-                        02
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Pill */}
-                  <div className="bg-black rounded-full w-16 h-6 mb-2 md:mb-4"></div>
+                  
 
                   {/* Text content */}
                   <div className="space-y-6">
-                    <p className="text-lg md:text-2xl">For Builders</p>
+                    <p className="text-xl md:text-3xl font-bold">For <br /> Builders</p>
 
-                    <h2 className="text-xl md:text-3xl font-bold">Find Use Cases</h2>
+                    <hr className="border-black"/>
+
+                    <h2 className="text-lg md:text-2xl">Students, Startups & Innovators
+                    </h2>
 
                     <button className="bg-black text-white py-1 md:py-3 px-6 rounded-lg w-full font-bold" onClick={() => window.open("https://tally.so/r/w7Zp0z")}>
                       Build Now
@@ -133,36 +108,7 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div className="invisible relative w-44 md:w-64 pt-4 pb-6">
-                <div className="absolute bottom-0 right-0 h-3/6 w-full rounded-3xl border-2 border-black -translate-y-2 -translate-x-4"></div>
-
-                <div className="relative z-10 rounded-3xl bg-accent p-4 md:p-6">
-                  <div className="flex mb-6">
-                    <div className="border border-black rounded-full w-10 h-10"></div>
-                    <div className="border border-black rounded-full w-10 h-10 -ml-2"></div>
-                    <div className="border border-black rounded-full w-10 h-10 -ml-2"></div>
-                    <div className="bg-black rounded-full w-10 h-10 -ml-2 flex items-center justify-center">
-                      <span className="text-accent font-bold">
-                        03
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Pill */}
-                  <div className="bg-black rounded-full w-16 h-6 mb-2 md:mb-4"></div>
-
-                  {/* Text content */}
-                  <div className="space-y-6">
-                    <p className="text-lg md:text-2xl text-black">For Universities</p>
-
-                    <h2 className="text-xl md:text-3xl font-bold text-black">Partner for your hackathons</h2>
-
-                    <button className="bg-black text-white py-1 md:py-3 px-6 rounded-lg w-full font-bold">
-                      Contact Us
-                    </button>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

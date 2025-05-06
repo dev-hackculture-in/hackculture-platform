@@ -60,12 +60,12 @@ const Outcomes = () => {
           
           {/* Arrow Icon */}
           <div className="absolute top-6 right-6">
-        {(i === 1 || i===2 )&& <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="">
             <line x1="7" y1="17" x2="17" y2="7"></line>
             <polyline points="7 7 17 7 17 17"></polyline>
-        </svg>}
+        </svg>
 
-            {(i === 3 || i===0) && <div className="flex mb-6">
+            {/* {(i === 3 || i===0) && <div className="flex mb-6">
       <div className={`border border-${box.text} rounded-full w-10 h-10`}></div>
       <div className={`border border-${box.text} rounded-full w-10 h-10 -ml-2`}></div>
       <div className={`border border-${box.text} rounded-full w-10 h-10 -ml-2`}></div>
@@ -77,7 +77,7 @@ const Outcomes = () => {
             </svg>
         </span>
       </div>
-    </div>}
+    </div>} */}
           </div>
 
           

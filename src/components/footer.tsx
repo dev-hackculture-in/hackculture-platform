@@ -19,13 +19,13 @@ const Footer = () => {
                     >
                         Privacy Policy
                     </a>
-                    <a
+                    {/* <a
                         href="https://tally.so/r/mYdgGd"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Organize Hackathon
-                    </a>
+                    </a> */}
                 </div>
                 <div className="flex items-center gap-4">
                     <a

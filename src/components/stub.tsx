@@ -6,7 +6,7 @@ const Stub = ( ) => {
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:px-24 md:py-36 relative items-center">
 
-                <h1 className="text-3xl md:text-4xl font-bold text-white">We fast-track open innovation through sourcing ideas & co-creating solutions with Startups, Scaleups, Universities and Builders with minimal efforts</h1>
+                <h1 className="text-3xl md:text-4xl font-bold text-white">We fast-track open innovation through sourcing ideas & co-creating solutions with Startups, Scaleups, Universities and Builders</h1>
                 <div className="flex items-center justify-center w-full">
                 <svg width="510" height="458" viewBox="0 0 510 458" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <ellipse cx="432.771" cy="375.799" rx="36.8281" ry="36.362" fill="url(#pattern0_738_777)"/>
