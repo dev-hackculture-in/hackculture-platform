@@ -5,12 +5,12 @@ import { cn } from "@/lib/utils";
 const MobileNav = () => {
     const [showNav, setShowNav] = useState(false);
 
-    const onNavClick = (href: string) => {
-        setShowNav(false);
-        document.getElementById(href)?.scrollIntoView({
-            behavior: "smooth",
-        });
-    };
+    // const onNavClick = (href: string) => {
+    //     setShowNav(false);
+    //     document.getElementById(href)?.scrollIntoView({
+    //         behavior: "smooth",
+    //     });
+    // };
 
     return (
         <div>

@@ -1,5 +1,3 @@
-import { CompaniesSvgs } from "./svgs/companies-svgs";
-
 const Companies = () => {
     return (
         <div
