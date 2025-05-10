@@ -1,11 +1,12 @@
+import { Typewriter } from "react-simple-typewriter";
 import { Icons } from "./icons";
 
 const Hero = () => {
   return (
     <div className="md:container px-5 relative py-10 md:py-16">
       <div className="flex flex-col md:flex-row">
-        <div className="md:px-24 text-left">
-          <div className="max-w-3xl flex flex-col gap-8">
+        <div className="w-[50rem] text-left">
+          <div className="max-w-3xl overflow-hidden flex flex-col gap-8">
             <div className="flex flex-col whitespace-nowrap">
               <h1 className="font-bold text-4xl md:text-6xl tracking-tight">
                 Fastrack Open{" "}
@@ -13,8 +14,12 @@ const Hero = () => {
               <h1 className="font-bold text-4xl md:text-6xl tracking-tight">
                 Innovation Through{" "}
               </h1>
-              <h1 className="font-bold text-4xl md:text-6xl tracking-tight text-primary-foreground">
-                Hackathons
+              <h1 className="font-bold text-4xl md:text-6xl h-16 tracking-tight text-primary-foreground">
+                <Typewriter
+                                    words={["Hackathons", "Innovation Challenges", "Startup Programs"]}
+                                    // words={["Innovation Challenges"]}
+                                    loop={0}
+                                />
               </h1>
             </div>
 
