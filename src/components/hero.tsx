@@ -3,7 +3,7 @@ import { Icons } from "./icons";
 
 const Hero = () => {
   return (
-    <div className="md:container px-5 relative py-10 md:py-16">
+    <div className="md:container px-3 relative py-10 md:py-16">
       <div className="flex flex-col md:flex-row">
         <div className="w-[50rem] text-left">
           <div className="max-w-3xl overflow-hidden flex flex-col gap-8">
