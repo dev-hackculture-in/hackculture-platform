@@ -5,16 +5,16 @@ const Hero = () => {
   return (
     <div className="md:container px-3 relative py-10 md:py-16">
       <div className="flex flex-col md:flex-row">
-        <div className="w-[50rem] text-left">
+        <div className="md:w-[50rem] text-left">
           <div className="max-w-3xl overflow-hidden flex flex-col gap-8">
             <div className="flex flex-col whitespace-nowrap">
-              <h1 className="font-bold text-4xl md:text-6xl tracking-tight">
+              <h1 className="font-bold text-3xl md:text-6xl tracking-tight">
                 Fastrack Open{" "}
               </h1>
-              <h1 className="font-bold text-4xl md:text-6xl tracking-tight">
+              <h1 className="font-bold text-3xl md:text-6xl tracking-tight">
                 Innovation Through{" "}
               </h1>
-              <h1 className="font-bold text-4xl md:text-6xl h-16 tracking-tight text-primary-foreground">
+              <h1 className="font-bold text-3xl md:text-6xl h-8 md:h-16 tracking-tight text-primary-foreground">
                 <Typewriter
                                     words={["Hackathons", "Innovation Challenges", "Startup Programs"]}
                                     // words={["Innovation Challenges"]}
@@ -24,18 +24,18 @@ const Hero = () => {
             </div>
 
             <div>
-              <p className=" text-md md:text-2xl leading-[1.5]">
+              <p className=" text-sm md:text-2xl leading-[1.5]">
               A platform to source the  
               </p>
-              <p className=" text-md md:text-2xl leading-[1.5]">
+              <p className=" text-sm md:text-2xl leading-[1.5]">
               right solutions & talent for the
               </p>
-              <p className=" text-md md:text-2xl leading-[1.5]">
+              <p className=" text-sm md:text-2xl leading-[1.5]">
                most pressing problems of your organization
               </p>
             </div>
 
-            <div className="flex py-4 gap-6">
+            <div className="flex py-4 gap-4 md:gap-6 justify-center md:justify-start">
               <div className="flex flex-col gap-4">
                 <Icons.code className="size-12" />
                 <div>
