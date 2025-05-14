@@ -39,15 +39,15 @@ const Hero = () => {
               <div className="flex flex-col gap-4">
                 <Icons.code className="size-12" />
                 <div>
-                  <h1 className="font-extrabold text-2xl md:text-4xl">20+</h1>
-                  <h3 className="font-medium text-md">Hackathons</h3>
+                  <h1 className="font-extrabold text-2xl md:text-4xl">30+</h1>
+                  <h3 className="font-medium text-md">Programs</h3>
                 </div>
               </div>
               <div className="mx-1 border-r-2 border-black"></div>
               <div className="flex flex-col gap-4">
                 <Icons.people className="size-12" />
                 <div>
-                  <h1 className="font-extrabold text-2xl md:text-4xl">3000+</h1>
+                  <h1 className="font-extrabold text-2xl md:text-4xl">80000+</h1>
                   <h3 className="font-medium text-md">Builders</h3>
                 </div>
               </div>
@@ -56,7 +56,7 @@ const Hero = () => {
                 <Icons.bulb className="size-12" />
                 <div>
                   <h1 className="font-extrabold text-2xl md:text-4xl">1000+</h1>
-                  <h3 className="font-medium text-md">Ideas</h3>
+                  <h3 className="font-medium text-md">Ideas Shipped</h3>
                 </div>
               </div>
             </div>

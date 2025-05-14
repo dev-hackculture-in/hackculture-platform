@@ -26,7 +26,7 @@ const Outcomes = () => {
               width: "md:col-span-2",
               height: "h-60",
               text: "black",
-              desc: "Identify relevant startups/solution provider",
+              desc: "Scout relevant startups/solution provider",
               circle: false,
               bg: "secondary-foreground",
             },
