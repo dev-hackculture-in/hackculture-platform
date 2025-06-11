@@ -62,7 +62,7 @@ const ScoutHero = () => {
                     title: "Automated Intelligent Outreach",
                     height: "h-60",
                     text: "white",
-                    desc: "Our AI agent scouts and scrap relevant contacts and do the automated outreach for the solution providers.",
+                    desc: "Our AI agent scouts and scrap relevant contacts and does the automated outreach to identify the right solution providers.",
                     circle: false,
                     bg: "primary-foreground",
                   },
