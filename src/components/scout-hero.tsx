@@ -1,7 +1,7 @@
 const ScoutHero = () => {
   return (
     <div className="md:container px-3 relative py-10 md:py-16">
-      <div className="flex flex-col gap-y-32">
+      <div className="flex flex-col gap-y-16 md:gap-y-32">
         <div className="flex flex-col justify-center items-center text-center">
           <div className="bg-gradient-to-r from-primary-foreground to-black text-white py-2 px-4 rounded-full inline-block mb-6">
             <p className="text-xs md:text-base font-medium">
@@ -80,7 +80,7 @@ const ScoutHero = () => {
                     className={`${box.height} bg-${box.bg} text-${box.text} rounded-xl p-6 relative flex flex-col justify-between`}
                   >
                     <div className="flex flex-col">
-                      <h1 className="text-2xl md:text-3xl font-bold mb-4 leading-tight pr-12">
+                      <h1 className="text-xl md:text-3xl font-bold mb-4 leading-tight pr-8 md:pr-12">
                         {box.title}
                       </h1>
                       <p className="text-sm md:text-base font-light leading-relaxed">
