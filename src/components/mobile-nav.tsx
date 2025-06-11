@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Icons } from "./icons";
 import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
 
 const MobileNav = () => {
     const [showNav, setShowNav] = useState(false);
@@ -44,6 +45,15 @@ const MobileNav = () => {
                     </svg>
                 </div>
                 <ul className="flex flex-col items-center justify-between min-h-[250px] text-3xl">
+
+                    <li className="border-b border-gray-400 my-8 uppercase">
+                       <Link
+                    to="/scout"
+                    className="cursor-pointer text-secondary-foreground"
+                >
+                    Scout
+                </Link>
+                    </li>
                     <li className="border-b border-gray-400 my-8 uppercase">
                         <a
                             className="cursor-pointer"

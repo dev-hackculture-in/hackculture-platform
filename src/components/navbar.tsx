@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Icons } from "./icons";
 import MobileNav from "./mobile-nav";
 
@@ -11,6 +12,13 @@ const Navbar = () => {
             <div className="hidden md:block w-full h-px bg-black mx-12" />
 
             <div className="hidden md:flex justify-between gap-16 items-center font-medium text-xl whitespace-nowrap">
+
+                <Link
+                    to="/scout"
+                    className="cursor-pointer font-bold bg-gradient-to-r from-primary-foreground to-black bg-clip-text text-transparent"
+                >
+                    Scout
+                </Link>
 
                 <a
                     className="cursor-pointer"
