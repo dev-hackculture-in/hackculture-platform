@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 interface Hackathon {
     id: number;
     title: string;
