@@ -47,7 +47,7 @@ const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => {
             <div className="absolute top-2 left-2 w-full h-full bg-black rounded-2xl"></div>
             <div className="relative bg-[#4D44F8] rounded-2xl p-4 text-white flex flex-col h-full">
                 <div className="rounded-lg h-52 mb-4 overflow-hidden">
-                    <img src={hackathon.imageUrl} alt={hackathon.title} className="w-full h-full object-cover" />
+                    <img src={hackathon.imageUrl} alt={hackathon.title} className="w-full h-full object-cover object-top" />
                 </div>
                 <div className="flex justify-between items-center text-sm mb-2">
                     <span>{hackathon.mode}</span>
