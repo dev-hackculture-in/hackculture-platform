@@ -13,7 +13,7 @@ const hackathons: Hackathon[] = [
     {
         id: 1,
         title: 'The Lam Research Challenge 2025',
-        date: 'Jul 7 - Aug 1',
+        date: 'Jul 7th - Aug 10th',
         location: 'Bangalore',
         imageUrl: '/featured/lrc.jpg', // We will use a simple gray box for now
         mode: 'Hybrid',
@@ -22,7 +22,7 @@ const hackathons: Hackathon[] = [
     {
         id: 2,
         title: 'HSBC Hiring Hackathon 2025',
-        date: 'Jul 7 - Aug 7',
+        date: 'Jul 27th',
         location: 'Hyderabad',
         imageUrl: '/featured/hsbc.jpg',
         mode: 'Hybrid',
@@ -31,7 +31,7 @@ const hackathons: Hackathon[] = [
     {
         id: 3,
         title: 'Ai for good hackathon 2025',
-        date: 'Jul 7 - Aug 4',
+        date: 'Jul 7th - Aug 4th',
         location: 'Hyderabad',
         imageUrl: '/featured/aifg.jpg',
         mode: 'Hybrid',
@@ -60,7 +60,7 @@ const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => {
                     </div>
                     <a href={hackathon.registrationUrl} target="_blank" rel="noopener noreferrer">
                         <button className="bg-white text-[#4D44F8] font-bold py-2 px-6 rounded-lg">
-                            Register Now
+                            Know More
                         </button>
                     </a>
                 </div>
