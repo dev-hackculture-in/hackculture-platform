@@ -1,4 +1,6 @@
 
+import { useRef } from "react";
+
 interface Hackathon {
     id: number;
     title: string;
@@ -37,6 +39,15 @@ const hackathons: Hackathon[] = [
         mode: 'Hybrid',
         registrationUrl: 'https://tinyurl.com/TAI4G',
     },
+    {
+        id: 4,
+        title: 'She Builds Hackathon',
+        date: 'Aug 1st',
+        location: 'Greater Noida',
+        imageUrl: '/featured/sheb.jpg',
+        mode: 'Offline',
+        registrationUrl: 'https://shebuilds.hackculture.in/',
+    },
 ];
 
 const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => {
@@ -70,16 +81,53 @@ const HackathonCard = ({ hackathon }: { hackathon: Hackathon }) => {
 };
 
 const FeaturedHacks = () => {
+    const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+    const scroll = (direction: 'left' | 'right') => {
+        if (scrollContainerRef.current) {
+            const scrollAmount = 320; // Corresponds to w-80
+            scrollContainerRef.current.scrollBy({
+                left: direction === 'left' ? -scrollAmount : scrollAmount,
+                behavior: 'smooth',
+            });
+        }
+    };
+
     return (
         <div className="py-12">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 relative">
                 <h2 className="text-5xl font-bold mb-8 text-center ">
                     Featured Hackathons
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    ref={scrollContainerRef}
+                    className="grid grid-cols-1 gap-8 md:flex md:overflow-x-auto md:space-x-8 md:pb-4 scroll-smooth"
+                >
                     {hackathons.map((hackathon) => (
-                        <HackathonCard key={hackathon.id} hackathon={hackathon} />
+                        <div key={hackathon.id} className="w-full md:w-80 md:flex-shrink-0">
+                            <HackathonCard hackathon={hackathon} />
+                        </div>
                     ))}
+                </div>
+                <div className="hidden md:block">
+                    <button
+                        onClick={() => scroll('left')}
+                        className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-[#4D44F8] text-white rounded-full p-2 z-10"
+                        aria-label="Scroll left"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button
+                        onClick={() => scroll('right')}
+                        className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-[#4D44F8] text-white rounded-full p-2 z-10"
+                        aria-label="Scroll right"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
