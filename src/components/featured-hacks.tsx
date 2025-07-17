@@ -1,4 +1,3 @@
-
 import { useRef } from "react";
 
 interface Hackathon {
@@ -101,10 +100,10 @@ const FeaturedHacks = () => {
                 </h2>
                 <div
                     ref={scrollContainerRef}
-                    className="grid grid-cols-1 gap-8 md:flex md:overflow-x-auto md:space-x-8 md:pb-4 scroll-smooth"
+                    className="grid grid-cols-1 justify-items-center gap-8 md:flex md:overflow-x-auto md:space-x-8 md:pb-4 scroll-smooth"
                 >
                     {hackathons.map((hackathon) => (
-                        <div key={hackathon.id} className="w-full md:w-80 md:flex-shrink-0">
+                        <div key={hackathon.id} className="w-11/12 md:w-80 md:flex-shrink-0">
                             <HackathonCard hackathon={hackathon} />
                         </div>
                     ))}
