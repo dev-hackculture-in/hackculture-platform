@@ -26,7 +26,7 @@ const hackathons: Hackathon[] = [
         date: 'Jul 27th',
         location: 'Hyderabad',
         imageUrl: '/featured/hsbc.jpg',
-        mode: 'Hybrid',
+        mode: 'Online',
         registrationUrl: 'https://tinyurl.com/TUHSBC',
     },
     {
